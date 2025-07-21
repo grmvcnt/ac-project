@@ -49,13 +49,13 @@
             "FunctionName": {
                 "Fn::If": [
                     "ShouldNotCreateEnvResources",
-                    "acprojecta3de2af6",
+                    "acprojecte908d329",
                     {
 
                         "Fn::Join": [
                             "",
                             [
-                                "acprojecta3de2af6",
+                                "acprojecte908d329",
                                 "-",
                                 {
                                     "Ref": "env"
@@ -80,13 +80,13 @@
                 "RoleName": {
                     "Fn::If": [
                         "ShouldNotCreateEnvResources",
-                        "acprojectLambdaRole74e6679c",
+                        "acprojectLambdaRole64a83f14",
                         {
 
                             "Fn::Join": [
                                 "",
                                 [
-                                    "acprojectLambdaRole74e6679c",
+                                    "acprojectLambdaRole64a83f14",
                                     "-",
                                     {
                                         "Ref": "env"

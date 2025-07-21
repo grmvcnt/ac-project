@@ -1,11 +1,6 @@
 {
   "function": {
-    "acproject6b5b5e2f": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    },
-    "acprojecta3de2af6": {
+    "acprojecte908d329": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
